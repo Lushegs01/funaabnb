@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal & Support - FunaaBnB</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style type="text/tailwindcss">
+        @theme {
+            --color-forest: #166534;
+            --color-forest-dark: #14532d;
+            --color-forest-light: #22c55e;
+            --color-offwhite: #f9fafb;
+            --color-slate-deep: #0f172a;
+            --color-amber-star: #fbbf24;
+        }
+
+        /* Glassmorphism utilities */
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f9fafb;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #166534;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #14532d;
+        }
+    </style>
+</head>
+
+<body class="font-['Plus_Jakarta_Sans'] bg-offwhite text-slate-deep antialiased overflow-x-hidden">
+
+    <nav class="fixed top-0 left-0 right-0 z-50 glass border-b border-white/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center gap-2">
+                    <div
+                        class="w-10 h-10 bg-gradient-to-br from-forest to-emerald-400 rounded-xl flex items-center justify-center shadow-lg shadow-emerald-500/30">
+                        <i class="fa-solid fa-house-chimney text-white text-lg"></i>
+                    </div>
+                    <span class="text-2xl font-extrabold tracking-tight text-slate-deep">
+                        Funaa<span class="text-forest">BnB</span>
+                    </span>
+                </a>
+
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="/#spaces"
+                        class="text-sm font-semibold text-slate-600 hover:text-forest transition-colors duration-300">Explore
+                        Spaces</a>
+                    <a href="/#why"
+                        class="text-sm font-semibold text-slate-600 hover:text-forest transition-colors duration-300">Why
+                        FunaaBnB</a>
+                    <a href="/#list"
+                        class="text-sm font-semibold text-slate-600 hover:text-forest transition-colors duration-300">List
+                        Your Space</a>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <a href="https://funaabnb-frontend.vercel.app/"
+                        class="px-6 py-2.5 bg-forest text-white text-sm font-semibold rounded-full hover:bg-forest-dark hover:shadow-lg hover:shadow-emerald-500/30 transition-all duration-300 transform hover:-translate-y-0.5">
+                        Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section
+        class="pt-32 pb-16 bg-gradient-to-br from-offwhite via-emerald-50/50 to-offwhite border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-deep tracking-tight mb-4">
+                Legal & <span class="text-transparent bg-clip-text bg-gradient-to-r from-forest to-emerald-500">Support
+                    Center</span>
+            </h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+                Everything you need to know about our policies, guidelines, and how we keep the FUNAAB student community
+                safe.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-12 relative">
+
+                <aside class="lg:w-1/4">
+                    <div
+                        class="sticky top-28 bg-white p-6 rounded-3xl border border-slate-100 shadow-xl shadow-emerald-900/5">
+                        <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-6">Directory</h3>
+                        <nav class="space-y-2">
+                            <a href="#terms"
+                                class="flex items-center gap-3 w-full px-4 py-3 rounded-xl text-sm font-semibold text-slate-600 hover:bg-emerald-50 hover:text-forest transition-all">
+                                <i class="fa-solid fa-file-contract w-5"></i> Terms of Service
+                            </a>
+                            <a href="#privacy"
+                                class="flex items-center gap-3 w-full px-4 py-3 rounded-xl text-sm font-semibold text-slate-600 hover:bg-emerald-50 hover:text-forest transition-all">
+                                <i class="fa-solid fa-shield-halved w-5"></i> Privacy Policy
+                            </a>
+                            <a href="#cookies"
+                                class="flex items-center gap-3 w-full px-4 py-3 rounded-xl text-sm font-semibold text-slate-600 hover:bg-emerald-50 hover:text-forest transition-all">
+                                <i class="fa-solid fa-cookie-bite w-5"></i> Cookie Policy
+                            </a>
+                            <a href="#faq"
+                                class="flex items-center gap-3 w-full px-4 py-3 rounded-xl text-sm font-semibold text-slate-600 hover:bg-emerald-50 hover:text-forest transition-all">
+                                <i class="fa-solid fa-circle-question w-5"></i> Help Center (FAQ)
+                            </a>
+                        </nav>
+                    </div>
+                </aside>
+
+                <main class="lg:w-3/4 space-y-20">
+
+                    <div id="terms"
+                        class="bg-white p-8 sm:p-12 rounded-3xl border border-slate-100 shadow-sm scroll-mt-28">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 bg-emerald-100 text-forest text-xs font-bold uppercase tracking-wider rounded-full mb-6">
+                            Updated: March 2026
+                        </div>
+                        <h2 class="text-3xl font-extrabold text-slate-deep mb-8">Terms of Service</h2>
+
+                        <div class="space-y-8 text-slate-600 leading-relaxed">
+                            <p>Welcome to FunaaBnB. These Terms of Service ("Terms") govern your access to and use of
+                                the FunaaBnB website and services, designed to connect students of the Federal
+                                University of Agriculture, Abeokuta (FUNAAB) with verified local housing.</p>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-deep mb-3">1. Account Registration</h3>
+                                <ul class="space-y-3 list-none">
+                                    <li class="flex items-start gap-3">
+                                        <i class="fa-solid fa-check text-forest mt-1"></i>
+                                        <span><strong>Eligibility:</strong> You must be a currently enrolled student (to
+                                            book spaces) or a legally authorized property owner/manager (to list
+                                            spaces).</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fa-solid fa-check text-forest mt-1"></i>
+                                        <span><strong>Verification:</strong> All users must undergo our verification
+                                            process. Landlords must provide valid government ID and property
+                                            documentation. Students must provide a valid FUNAAB student ID or admission
+                                            letter.</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-deep mb-3">2. The FunaaBnB Scam-Free Guarantee
+                                </h3>
+                                <ul class="space-y-3 list-none">
+                                    <li class="flex items-start gap-3">
+                                        <i class="fa-solid fa-shield-check text-forest mt-1"></i>
+                                        <span>We physically inspect properties and verify landlord identities before
+                                            listing.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fa-solid fa-shield-check text-forest mt-1"></i>
+                                        <span>FunaaBnB acts as a secure intermediary. If a property significantly
+                                            deviates from its listing upon your scheduled move-in, or if the landlord is
+                                            proven fraudulent, FunaaBnB will withhold the payout and refund your deposit
+                                            according to our Dispute Resolution Policy.</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-deep mb-3">3. Bookings, Payments, and Rent
+                                    Splitting</h3>
+                                <p class="mb-3"><strong>Payments:</strong> All initial booking deposits must be
+                                    processed through the FunaaBnB platform to qualify for the Scam-Free Guarantee.
+                                    Payments made directly to landlords outside our platform are not protected.</p>
+                                <p><strong>Split Rent:</strong> If utilizing the "Split Rent" feature, all co-tenants
+                                    are jointly and severally liable for the total rent. Failure of one tenant to pay
+                                    their share may result in the cancellation of the booking for all parties.</p>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-deep mb-3">4. Code of Conduct</h3>
+                                <p class="mb-3"><strong>Landlords</strong> agree to maintain properties in habitable
+                                    conditions, providing 24/7 basic amenities as advertised (e.g., power, water).</p>
+                                <p><strong>Students</strong> agree to respect the property, adhere to the landlord's
+                                    house rules, and maintain peaceful coexistence in shared campus zones (e.g., Gate
+                                    Area, Alabata).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="privacy"
+                        class="bg-white p-8 sm:p-12 rounded-3xl border border-slate-100 shadow-sm scroll-mt-28">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 bg-emerald-100 text-forest text-xs font-bold uppercase tracking-wider rounded-full mb-6">
+                            Updated: March 2026
+                        </div>
+                        <h2 class="text-3xl font-extrabold text-slate-deep mb-8">Privacy Policy</h2>
+
+                        <div class="space-y-8 text-slate-600 leading-relaxed">
+                            <p>FunaaBnB values your privacy. This policy outlines how we collect, use, and protect your
+                                personal information.</p>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-deep mb-4">1. Information We Collect</h3>
+                                <div class="grid sm:grid-cols-2 gap-4">
+                                    <div class="p-4 bg-offwhite rounded-2xl border border-slate-100">
+                                        <h4 class="font-bold text-slate-deep mb-2"><i
+                                                class="fa-regular fa-id-card text-forest mr-2"></i>Profile Data</h4>
+                                        <p class="text-sm">Name, email, phone number, and FUNAAB matriculation/jamb
+                                            number.</p>
+                                    </div>
+                                    <div class="p-4 bg-offwhite rounded-2xl border border-slate-100">
+                                        <h4 class="font-bold text-slate-deep mb-2"><i
+                                                class="fa-solid fa-file-shield text-forest mr-2"></i>Verification Data
+                                        </h4>
+                                        <p class="text-sm">Government IDs, property docs (landlords), and student IDs.
+                                        </p>
+                                    </div>
+                                    <div class="p-4 bg-offwhite rounded-2xl border border-slate-100">
+                                        <h4 class="font-bold text-slate-deep mb-2"><i
+                                                class="fa-solid fa-credit-card text-forest mr-2"></i>Transaction Data
+                                        </h4>
+                                        <p class="text-sm">Payment details securely processed by third-party gateways.
+                                        </p>
+                                    </div>
+                                    <div class="p-4 bg-offwhite rounded-2xl border border-slate-100">
+                                        <h4 class="font-bold text-slate-deep mb-2"><i
+                                                class="fa-solid fa-chart-line text-forest mr-2"></i>Usage Data</h4>
+                                        <p class="text-sm">Search queries (e.g., "Alabata Road") and listing
+                                            interactions.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-deep mb-3">2. How We Use Your Data</h3>
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>To verify your identity and prevent fraud.</li>
+                                    <li>To facilitate bookings and match you with compatible roommates.</li>
+                                    <li>To communicate important updates regarding your tenancy or listing.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-deep mb-3">3. Data Sharing</h3>
+                                <p>We do not sell your personal data. We only share information between matched students
+                                    and landlords to finalize tenancy agreements, with trusted third-party service
+                                    providers strictly for operational purposes, or when required by Nigerian law
+                                    enforcement.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="cookies"
+                        class="bg-white p-8 sm:p-12 rounded-3xl border border-slate-100 shadow-sm scroll-mt-28">
+                        <h2 class="text-3xl font-extrabold text-slate-deep mb-6">Cookie Policy</h2>
+
+                        <div class="space-y-6 text-slate-600 leading-relaxed">
+                            <p><strong>What Are Cookies?</strong> Cookies are small text files stored on your device
+                                when you visit FunaaBnB. They help us make the site function properly and improve your
+                                browsing experience.</p>
+
+                            <h3 class="text-xl font-bold text-slate-deep mt-8 mb-3">Types of Cookies We Use</h3>
+                            <ul class="space-y-4 list-none">
+                                <li class="flex items-start gap-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center shrink-0">
+                                        <span class="font-bold text-forest">1</span>
+                                    </div>
+                                    <div>
+                                        <strong class="text-slate-deep block mb-1">Essential Cookies</strong>
+                                        Required for basic site functionality, such as keeping you logged in and
+                                        remembering your search filters.
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center shrink-0">
+                                        <span class="font-bold text-forest">2</span>
+                                    </div>
+                                    <div>
+                                        <strong class="text-slate-deep block mb-1">Performance/Analytics
+                                            Cookies</strong>
+                                        Help us understand how students use the site so we can improve features (e.g.,
+                                        knowing which campus zones are searched most often).
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center shrink-0">
+                                        <span class="font-bold text-forest">3</span>
+                                    </div>
+                                    <div>
+                                        <strong class="text-slate-deep block mb-1">Preference Cookies</strong>
+                                        Remember your choices, such as your preferred currency or notification settings.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="faq" class="scroll-mt-28">
+                        <h2 class="text-3xl font-extrabold text-slate-deep mb-8">Help Center (FAQ)</h2>
+
+                        <div class="mb-12">
+                            <div class="flex items-center gap-3 mb-6">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-br from-forest to-emerald-400 rounded-xl flex items-center justify-center shadow-lg">
+                                    <i class="fa-solid fa-user-graduate text-white"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-slate-deep">For Students</h3>
+                            </div>
+
+                            <div class="space-y-4">
+                                <div
+                                    class="bg-white p-6 rounded-2xl border border-slate-100 hover:border-emerald-200 hover:shadow-lg transition-all">
+                                    <h4 class="text-lg font-bold text-slate-deep mb-2">How does the Scam-Free Guarantee
+                                        work?</h4>
+                                    <p class="text-slate-600">We physically inspect every property and verify the
+                                        landlord's documents before it goes live. When you book, your payment is held
+                                        securely. If the apartment doesn't match the photos or the landlord doesn't
+                                        provide the keys, your money is safe and will be refunded.</p>
+                                </div>
+                                <div
+                                    class="bg-white p-6 rounded-2xl border border-slate-100 hover:border-emerald-200 hover:shadow-lg transition-all">
+                                    <h4 class="text-lg font-bold text-slate-deep mb-2">Can I really split the rent?</h4>
+                                    <p class="text-slate-600">Yes! If an apartment allows it, you can use our Split Rent
+                                        feature. You can either invite a friend to split the cost with you, or opt into
+                                        our roommate-matching system to find another verified FUNAAB student looking to
+                                        share.</p>
+                                </div>
+                                <div
+                                    class="bg-white p-6 rounded-2xl border border-slate-100 hover:border-emerald-200 hover:shadow-lg transition-all">
+                                    <h4 class="text-lg font-bold text-slate-deep mb-2">Are there hidden agency fees?
+                                    </h4>
+                                    <p class="text-slate-600">No. FunaaBnB displays the total cost upfront. The price
+                                        you see includes the base rent and any standard platform service fees. Say
+                                        goodbye to surprise agency and agreement charges.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-3 mb-6">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-br from-slate-700 to-slate-900 rounded-xl flex items-center justify-center shadow-lg">
+                                    <i class="fa-solid fa-house-user text-white"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-slate-deep">For Landlords</h3>
+                            </div>
+
+                            <div class="space-y-4">
+                                <div
+                                    class="bg-white p-6 rounded-2xl border border-slate-100 hover:border-slate-300 hover:shadow-lg transition-all">
+                                    <h4 class="text-lg font-bold text-slate-deep mb-2">How do I get my property
+                                        verified?</h4>
+                                    <p class="text-slate-600">Click "List Your Space" and create an account. You will
+                                        need to upload your government ID, proof of property ownership/management, and
+                                        clear photos. Our team will review the documents and schedule a brief physical
+                                        inspection before your listing goes live.</p>
+                                </div>
+                                <div
+                                    class="bg-white p-6 rounded-2xl border border-slate-100 hover:border-slate-300 hover:shadow-lg transition-all">
+                                    <h4 class="text-lg font-bold text-slate-deep mb-2">When do I get paid?</h4>
+                                    <p class="text-slate-600">To protect both parties, we hold the student's payment
+                                        securely. Payouts are initiated to your registered bank account 24 hours after
+                                        the student successfully moves in and confirms the property matches the listing.
+                                    </p>
+                                </div>
+                                <div
+                                    class="bg-white p-6 rounded-2xl border border-slate-100 hover:border-slate-300 hover:shadow-lg transition-all">
+                                    <h4 class="text-lg font-bold text-slate-deep mb-2">What if a student damages my
+                                        property?</h4>
+                                    <p class="text-slate-600">We require students to pay a standardized caution fee
+                                        during booking, which is held in escrow. If damages occur, you can submit a
+                                        claim through the Landlord Dashboard with photographic evidence.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-deep text-white pt-16 pb-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-br from-emerald-400 to-forest rounded-xl flex items-center justify-center">
+                            <i class="fa-solid fa-house-chimney text-white text-lg"></i>
+                        </div>
+                        <span class="text-2xl font-extrabold tracking-tight">
+                            Funaa<span class="text-emerald-400">BnB</span>
+                        </span>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        The most trusted student housing platform at Federal University of Agriculture, Abeokuta.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-emerald-500 transition-colors duration-300">
+                            <i class="fa-brands fa-twitter text-sm"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-emerald-500 transition-colors duration-300">
+                            <i class="fa-brands fa-instagram text-sm"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-emerald-500 transition-colors duration-300">
+                            <i class="fa-brands fa-whatsapp text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">For Students</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">Browse
+                                Spaces</a></li>
+                        <li><a href="#" class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">How it
+                                Works</a></li>
+                        <li><a href="#" class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">Safety
+                                Guide</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">For Landlords</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">List
+                                Your Space</a></li>
+                        <li><a href="#" class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">Landlord
+                                Dashboard</a></li>
+                        <li><a href="#" class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">Pricing
+                                & Fees</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">Support</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#faq" class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">Help
+                                Center</a></li>
+                        <li><a href="#terms"
+                                class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">Terms of
+                                Service</a></li>
+                        <li><a href="#privacy"
+                                class="text-slate-300 hover:text-emerald-400 transition-colors text-sm">Privacy
+                                Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-slate-500 text-sm">
+                    © 2026 FunaaBnB. All rights reserved. Built with 💚 for FUNAAB Students.
+                </p>
+                <div class="flex items-center gap-6 text-sm text-slate-500">
+                    <a href="#privacy" class="hover:text-emerald-400 transition-colors">Privacy</a>
+                    <a href="#terms" class="hover:text-emerald-400 transition-colors">Terms</a>
+                    <a href="#cookies" class="hover:text-emerald-400 transition-colors">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
